@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "/DQfa9NJpoQTqpECBgGjQ5oOUjPshFqLLyBGEEiryOE=",
+  "Source": "API1",
+  "BasePath": "_content/API1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "API1\\wwwroot",
+      "Source": "API1",
+      "ContentRoot": "C:\\Users\\Simon\\Desktop\\api_mvc\\API1\\API1\\wwwroot\\",
+      "BasePath": "_content/API1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Simon\\Desktop\\api_mvc\\API1\\API1\\wwwroot\\Resources\\images\\dog1.jpg",
+      "SourceId": "API1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Simon\\Desktop\\api_mvc\\API1\\API1\\wwwroot\\",
+      "BasePath": "_content/API1",
+      "RelativePath": "Resources/images/dog1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resources\\images\\dog1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Simon\\Desktop\\api_mvc\\API1\\API1\\wwwroot\\Resources\\images\\dog2.jpg",
+      "SourceId": "API1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Simon\\Desktop\\api_mvc\\API1\\API1\\wwwroot\\",
+      "BasePath": "_content/API1",
+      "RelativePath": "Resources/images/dog2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resources\\images\\dog2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Simon\\Desktop\\api_mvc\\API1\\API1\\wwwroot\\Resources\\images\\no-dog.png",
+      "SourceId": "API1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Simon\\Desktop\\api_mvc\\API1\\API1\\wwwroot\\",
+      "BasePath": "_content/API1",
+      "RelativePath": "Resources/images/no-dog.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resources\\images\\no-dog.png"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+@model DogsMVC.Viewmodels.Dogs.DogViewModel
+
+<section class="page">
+    <h1 class="page-title">Uppdatera hund</h1>
+    <form asp-action="Edit" method="post">
+        <input asp-for="Id" type="hidden">
+        <div class="form-control">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" type="text">
+            <span class="error" asp-validation-for="Name"></span>
+        </div>
+        <div class="form-control">
+            <label asp-for="Breed"></label>
+            <input asp-for="Breed" type="text">
+            <span class="error" asp-validation-for="Breed"></span>
+        </div>
+        <div class="form-control">
+            <label asp-for="Price"></label>
+            <input asp-for="Price" type="text">
+            <span class="error" asp-validation-for="Price"></span>
+        </div>
+                <div class="form-control">
+            <label asp-for="Age"></label>
+            <input asp-for="Age" type="text">
+            <span class="error" asp-validation-for="Age"></span>
+        </div>
+        <div class="form-control">
+            <label asp-for="ImageUrl"></label>
+            @{
+                string imageUrl = Model.ImageUrl;
+                if (imageUrl.StartsWith("Resources/images/"))
+                {
+                    imageUrl = imageUrl.Substring("Resources/images/".Length);
+                }
+            }
+            <input asp-for="ImageUrl" type="text" value="@imageUrl">
+            <span class="error" asp-validation-for="Name"></span>
+        </div>
+
+        <div class="form-control">
+            <div class="buttons-container">
+                <button class="btn btn-dark">Spara</button>
+                <a asp-action="Index" class="btn btn-warning">Avbryt</a>
+            </div>
+        </div>
+    </form>
+</section>

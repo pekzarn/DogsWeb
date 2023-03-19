@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Agust",
+        "breed": "Labrador",
+        "age": 15,
+        "imageUrl": "dog1.jpg",
+        "isSold": false,
+        "price": 17500
+    },
+    {
+        "id": 2,
+        "name": "Lisa",
+        "breed": "Chihuahua",
+        "age": 2,
+        "imageUrl": "dog2.jpg",
+        "isSold": false,
+        "price": 35000
+    }
+]

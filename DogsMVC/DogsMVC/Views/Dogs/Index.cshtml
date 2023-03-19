@@ -1,0 +1,20 @@
+@model IList<DogsMVC.Viewmodels.Dogs.DogViewModel>
+
+<section class="page">
+    <h1 class="page-title">Nuvarande hundar</h1>
+
+    <div class="gallery-wrapper">
+        @foreach (var dog in Model)
+        {
+            <div class="gallery-card">
+                <img src="@dog.FullImageUrl" alt="Dog Image">
+                <div><span>@dog.Breed</span>&nbsp;<span>@dog.Price</span></div>
+                <div><span>@dog.Name</span>&nbsp;<span>@dog.Age</span></div>
+                <div class="buttons-container">
+                    <a class="btn btn-dark" asp-action="edit" asp-controller="dogs" asp-route-id="@dog.Id">Ändra</a>
+                    <a class="btn btn-warning" asp-action="delete" asp-controller="dogs" asp-route-id="@dog.Id">Såld</a>
+                </div>
+            </div>
+        }
+    </div>
+</section>
